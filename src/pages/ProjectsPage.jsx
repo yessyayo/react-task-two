@@ -5,6 +5,7 @@ import Footer from '../components/Footer'
 import image from '../assets/images/image 30.png'
 import image1 from '../assets/images/image 33.png'
 import image2 from '../assets/images/image 32.png'
+import ViewButton from '../components/ViewButton'
 
 function ProjectsPage() {
 const data = [
@@ -43,10 +44,7 @@ const data = [
                             <div className='project-text'>
                                 <h1>{item.title}</h1>
                                 <p>{item.text}</p>
-                                <button>
-                                    view more
-                                    <span className='pi pi-arrow-right'></span>
-                                </button>
+                                <ViewButton content='View More'/>
                             </div>
 
                         </div>

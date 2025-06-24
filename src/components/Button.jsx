@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Button() {
+function Button({className=''}) {
   return (
     <div>
-        <div className='selector-container'>
+        <div className={`selector-container ${className}`}>
             
             <div className='indicator'>
                 <div className='page-indicator'>
