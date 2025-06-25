@@ -8,6 +8,7 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* css for the header component */
@@ -32,7 +33,6 @@
 .navbar li{
   font-size: 12px;
   font-weight: 400;
-  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -432,7 +432,9 @@ form textarea{
   display: flex;
   flex-direction: row;
   gap: 150px;
+  color: #ffffff;
 }
+
 
 .content-info, 
 .contact-info,
@@ -456,6 +458,12 @@ form textarea{
 
 .footer-info p{
   font-size: 14px;
+  font-weight: 500;
+}
+
+.footer-info a {
+  color: #ffffff;      
+  text-decoration: none;
   font-weight: 500;
 }
 
