@@ -47,36 +47,13 @@
 /* css for the landing page */
 /* hero section */
 .landing-page{
-  width:100%;
-  height: auto;
-  margin: 0 auto;
-}
-
-.title-container{
-  width: 100%;
-  position: relative;
-}
-
-.title{
-  font-size: 204px;
-  color: #e5e5e5;
-  text-transform: uppercase;
-  font-family: 'roboto'sans-serif;
-  text-align: center;
-}
-
-.title-image{
-  width: 252.78px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.content-container{
   width: 1440px;
   height: auto;
-  border-radius: 40px 40px 0 0;
-  box-shadow: 0 0 10px #172F6C33;
+  margin: 0 auto;
+  box-shadow: 0 0 10px #b6b6b633;
+}
+
+.content-container{
   margin: 10px auto;
 }
 
@@ -336,7 +313,7 @@ form textarea{
   width: 1440px;
   height: auto;
   margin: 0 auto;
-  border: 2px solid #eee4e4;
+  box-shadow: 0 0 10px #b6b6b633;
 }
 
 .photo-content{
@@ -485,7 +462,7 @@ form textarea{
 /* css for project page */
 .project-page{
   width: 1440px;
-  border: 2px solid #dfafaf;
+  box-shadow: 0 0 10px #b6b6b633;
   margin: 0 auto;
 }
 .our-project{
@@ -583,14 +560,6 @@ form textarea{
 /* landing page */
   .landing-page {
     height: auto;
-  }
-
-  .title {
-    font-size: 90px;
-  }
-
-  .title-image {
-    width: 220px;
   }
 
   .landing-content {
@@ -821,15 +790,6 @@ form textarea{
   .content-container,
   .landing-surface {
     width: 100%;
-    padding: 0 20px;
-  }
-
-  .title {
-    font-size: 60px;
-  }
-
-  .title-image {
-    width: 180px;
   }
 
   .landing-content {

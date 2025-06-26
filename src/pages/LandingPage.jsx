@@ -33,11 +33,6 @@ function LandingPage() {
 
   return (
     <div className='landing-page'>
-        <div className='title-container'>
-            <h1 className='title'>Landing page</h1>
-            <img className='title-image' src={image} />
-        </div>
-
         <div className='content-container'>
             {/* the imported header*/}
             <Header/>
